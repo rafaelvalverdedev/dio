@@ -1,6 +1,7 @@
-Entendendo o Desafio
+/* Entendendo o Desafio
  
-Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
+Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. 
+Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
  
 Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
  
@@ -34,6 +35,27 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
   
+*/
+let nome = "Rafael Valverde";
+let xp = 4520;
+let nivel;
 
+if (xp < 1000) {
+    nivel = "Ferro";
+} else if (xp >= 1001 && xp < 2000) {
+    nivel = "Bronze";
+} else if (xp >= 2001 && xp < 5000) {
+    nivel = "Prata";
+} else if (xp >= 5001 && xp < 7000) {
+    nivel = "Ouro";
+} else if (xp >= 7001 && xp < 8000) {
+    nivel = "Platina";
+} else if (xp >= 8001 && xp < 9000) {
+    nivel = "Ascendente";
+} else if (xp >= 9001 && xp < 10000) {
+    nivel = "Imortal";
+} else {
+    nivel = "Radiante";
+} 
 
-console.log("Oi);
+console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
