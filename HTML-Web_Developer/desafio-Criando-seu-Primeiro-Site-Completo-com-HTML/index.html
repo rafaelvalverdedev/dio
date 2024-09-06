@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Template - Utilizar como modelo</title>
     <link rel="stylesheet" href="base.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="menu">
@@ -23,20 +25,43 @@
                 Header
                 <!-- Aqui vai o seu header -->
             </div>
-    
+
             <div class="content">
                 Content
                 <!-- Aqui vai o seu conteúdo -->
             </div>
-    
-            <footer id="footer">
-                    <div class="footer-icones"><img src="images/icone-telefone.png" width="50px"></div>
-                    <div class="footer-icones"><img src="images/icone-mapa.png" width="50px"></div>
-                    <div class="footer-icones"><img src="images/icone-email.png" width="50px"></div>
-                    <div class="footer-icones">Redes Sociais</div>
-                    <div class="footer-barra">*Custo de Chamada para a Rede Fixa de acordo com o seu tarifário | Copyright ©2023 IMAC. All Rights Reserved - Developed by YOMOC</div>
+
+            <footer>
+                <div class="footer-icones">
+                    <img src="images/icone-telefone.png" width="30px">
+                    <p>Fixo: 75 3603 1000 <br>
+                        <img src="images/whatsapp.png" width="20px" style="display: inline;">
+                        75 98801 9999
+                    </p>
+                </div>
+                <div class="footer-icones" onclick="abrirmapa()" style="cursor: pointer;" aria-details="Abrir Mapa">
+                    <img src="images/icone-mapa.png" width="30px" alt="Abrir Mapa">
+                    <p>Rua Costa Almeida nº271, 2645-185 Alacam</p>
+                </div>
+                <div class="footer-icones"><img src="images/icone-email.png" width="30px">
+                    <p>75 3603 1000
+                        <br>
+                        Seg a Sex, 07hs às 22hs
+                        <br>
+                        Sáb, 07hs às 13hs
+                    </p>
+                </div>
+                <div class="footer-barra">Copyright ©2024 IMAC. All Rights Reserved - Rafael>dev</div>
             </footer>
+
         </div>
     </div>
+
+    <script>
+        function abrirmapa() {
+            window.open('https://maps.app.goo.gl/vDcM67hRQo2ye1k79', '_blank');
+        }
+    </script>
 </body>
+
 </html>
