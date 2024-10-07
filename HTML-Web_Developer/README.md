@@ -14,11 +14,28 @@ Entendendo sobre a hisória do computador, surgimanto da internet e como funcion
 
 -----------------------------------
 
+## Entendendo HTML Senântico
+### Main - Header - Footer (Conteúdo - Cabeçalho - Rodapé)
 
-## Primeiros passos com HTML
+<header></header>
+<main></main>  *TAG Principa
+<footer></footer>
 
-### História da Web
-### O que são Clients ?
-### O que são Servers?
-### Sobre linguagem de prorgamação web
+<aside></aside>
+<section></section>
+<nav></nav>
+
+<article></article>
+<blockquote></blockquote>
+<q></q>
+
+<figure></figure>
+<figcapture></figcapture>
+<picture></picture>
+
+-----------------------------------
+
+## SEO
+### Search Engine Optimization (Otimização para Mecanismos de Busca)
+
 
